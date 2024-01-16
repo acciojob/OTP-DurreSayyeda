@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+*{
+	width:99vw;
+}
+.code-container{
+	display:flex;
+}
+
+.code{
+	width: 80px;
+	height:70px;
+	display:flex;
+	justify-content:center;
+	align-item:center;
+	text-align:centre;
+	margin:25px;
+	font-size:50px;
+	padding:0px;
+	padding-left:0px;
+}
+#verification_heading,p,.footer{
+	display:flex;
+	justify-content:center;
+}
+.footer{
+	background: lightgray;
+	width:50%;
+	display:flex;
+	align-items:center;
+}
